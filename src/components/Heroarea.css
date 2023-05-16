@@ -1,0 +1,16 @@
+
+.heroarea_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.heroarea_headline {
+    font-size: 45px;
+    font-family: 'Changa' , sans-serif;
+    font-weight: lighter;
+    color: #ff704d;
+    background: #fff;
+    padding: 0.2rem 2.6rem;
+}

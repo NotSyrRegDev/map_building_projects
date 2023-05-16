@@ -1,0 +1,36 @@
+
+
+.building_navbar {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    min-height: 150px;
+ 
+}
+
+.ul_flex {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.ul_flex li {
+    margin: 0 0.8rem;
+    list-style: none outside none;
+}
+
+.ul_flex li a{
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Cairo' , sans-serif;
+    
+}
+
+.main_btn {
+    background: #ff704d;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Changa' , sans-serif;
+    padding: 0.2rem 0.8rem;
+}

@@ -1,0 +1,19 @@
+
+.main_footer {
+    background: #ff704d;
+    padding: 2.2rem 3.2rem;
+    color: #fff;
+    min-height: 10rem;
+}
+
+.grid_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_headline {
+    font-size: 22px;
+    font-family: 'Cairo' , sans-serif;
+    color: #fff;
+}

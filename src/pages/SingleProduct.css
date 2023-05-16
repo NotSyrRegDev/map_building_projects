@@ -1,0 +1,171 @@
+.single_product_page {
+    position: relative;
+    text-align: center;
+    background: #f4f4f4;
+    border: 2px solid #1b242d7a; 
+    padding-bottom: 1.3rem;
+    box-sizing: 0 12px 32px rgba(0,0,0,0.4);
+    min-width: 75vw;
+    box-shadow: rgba(161, 161, 161, 0.1) 0px 1px 0px, rgba(208, 208, 208, 0.1) 0px 8px 24px, rgba(160, 160, 160, 0.1) 0px 16px 48px !important;
+ 
+}
+.single_flex_section {
+
+
+    position: relative;
+}
+
+.right_arrow_product {
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 20px;
+    max-height: 3.6rem;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 9912;
+}
+
+.single_product_page .product_img {
+    max-height: 32rem;
+}
+
+
+
+.flex_one {
+    flex: 0.8;
+}
+
+.flex_two {
+    flex: 0.2;
+}
+
+.navigate_back {
+    background: #fff;
+    padding: 15px;
+    margin: 0 1.5rem;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    border-radius: 250px;
+    
+}
+
+.navigate_back img {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+.body_product_card {
+    margin-top: 2.4rem;
+    text-align: left;
+    padding: 0 2rem ;
+}
+
+.flex_choose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product_choose {
+    font-size: 16px;
+    font-family: 'Cairo' , sans-serif;
+    color: #000;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.checkbox_product {
+    margin-left: 0.8rem;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 1px solid #7f879a;
+}
+
+.d-flex-c {
+    display: flex;
+    align-items: center;
+
+  margin-top: 0.5rem;
+}
+.text-center {
+    text-align: center;
+}
+
+.single_choose_option {
+    margin-top: 2.5rem;
+}
+
+.input_textarea_form {
+    background: #fff;
+    width: 100%;
+    outline: none;
+    border: 1px solid #cfc8c8;
+    padding: 0 1.5rem;
+    min-height: 8rem;
+    text-align: right;
+    font-family: 'Cairo' , sans-serif;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.dashbord-header-btn_2 {
+    font-family: 'Changa';
+    padding: 0.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: 1px solid #07919b;
+    background-color: #07919b;
+  }
+  .dashbord-header-btn_2:hover {
+    color: #07919b;
+    border: 1px solid #07919b;
+    background-color: #F0F2F5;
+  }
+
+@media (max-width: 580px) {
+    .navigate_back {
+        background: #fff;
+        padding: 9px;
+        margin: 0 0.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        text-align: center;
+        border-radius: 250px;
+        
+    }
+    
+    .navigate_back img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .single_flex_section {
+        flex-direction: column-reverse;
+    }
+    .navigate_back {
+        margin-bottom: 0.5rem;
+    }
+    .product_choose {
+        font-size: 14px;
+
+    }
+    .body_product_card {
+        padding: 0 0.8rem;
+    }
+}
